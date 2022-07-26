@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="Style/Style.css">
+  
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <title>Home Page</title>
+
+    <style>
+      body{
+        text-align: center;
+      }
+      .navbar-nav {
+        margin-left: auto;
+      }
+   </style>
+  </head>
+
+  <body>
+    
+    	<!-- Creating a navigation bar using the
+		.navbar class of bootstrap -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <img src="Image/bakery.png" width="40" height="40">
+    <a class="navbar-brand" href="#" style="margin-left: 10px;">Bakery Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                  <a class="dropdown-item-right" href="#Pastry" style="text-decoration: none;color:black;">Pastry</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item-right" href="#Drinks" style="text-decoration: none; color:  black;">Drinks</a>
+                </div>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Aboutus">
+                    About
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+
+
+    </div>
+
+
+</nav>
+   
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img class="d-block w-100" src="Image/Cover1.jpg"  alt="First slide" >
+    </div>
+    <div class="carousel-item"  >
+      <img class="d-block w-100" src="Image/Cover2.jpg"   alt="Second slide" >
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+   
+  </div>
+</div>
+
+
+
+
+
+
+      <div id="details" class="container p-5 my-5 border">
+        <div>
+          <p style="font-size: 30px; text-transform: uppercase; color: brown;">Little bit of our self</p>
+        </div>
+        <div class="row" id="little-row">
+          <div class="col-sm">
+            <img src="Image/bakery-details.jpg" width="300" height="300"/>
+          </div>
+          <div class="col-sm">
+            <p class="p-about-little">Since 1976 , we have been successful Bakery shop in our area . Our big achievement is , we got 4 stars.</p>
+            <p class="p-details-little">More details</p>
+            <button type="button" class="btn  btn-sm">
+              <a href="https://www.instagram.com/accounts/login/"><img src="Image/instagram.png" width="50" height="50"/></a>
+            </button>
+            <button type="button" class="btn  btn-sm">
+              <a href="https://www.whatsapp.com/"><img src="Image/whatsapp.png" width="50" height="50"/></a>
+            </button>
+          </div>
+      
+      </div>
+
+       
+      </div>
+
+
+
+      <div id="Pastry" class="container p-5 my-5 border">
+        <p class="item-info">Pastry Item</p>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title">
+                  croissants
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/croissants.jpg" class="car-images-pastry"></p>
+                  <p class="pastry-para"><span class="span-ingre">ingrediant - </span>Flour , Butter , Oil , Sugar , Vanila </p>
+                  <p class="pastry-para"><span class="span-flav">flavours - </span> Vanila ,Chocolate , Strawberry</p>
+                  <p class="pastry-para"><span class="span-cos">cost - </span>200/= , 300/= ,  300/=</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body" >
+                <div class="car-title">
+                  bread
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/bread.jpg"  class="car-images-pastry"></p>
+                  <p class="pastry-para"> <span class="span-ingre">ingrediant - </span>Flour , Butter ,Oil , Vanila</p>
+                  <p class="pastry-para"> <span class="span-flav">flavours - </span>Asian Bread , Onion , Chocolate</p>
+                  <p class="pastry-para"> <span class="span-cos">cost - </span>350/= , 380/= , 380/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title" >
+                  cupcake
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/cupcakes.jpg"  class="car-images-pastry"></p>
+                  <p class="pastry-para"><span class="span-ingre">ingrediant -  </span>Flour , Butter ,Oil , Vanila , Flavours</p>
+                  <p class="pastry-para"><span class="span-flav">flavours - </span>Vanila , Chocolate , Strawberry</p>
+                  <p class="pastry-para"><span class="span-cos">cost - </span>200/= , 250/= , 250/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title" >
+                  cake
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/cake.jpg"  class="car-images-pastry"></p>
+                  <p class="pastry-para"><span class="span-ingre">ingrediant -  </span>Flour , Butter ,Oil , Vanila , Flavours</p>
+                  <p class="pastry-para"><span class="span-flav">flavours - </span>Vanila , Chocolate , Strawberry</p>
+                  <p class="pastry-para"><span class="span-cos">cost - </span>3200/= , 3250/= , 3250/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="Drinks" class="container p-5 my-5 border">
+        <p class="item-info">Drinks Item</p>
+        
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title">
+                  cocktails
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/mint-drink.jpg" class="car-images-pastry"></p>
+                  <p class="pastry-para"><span class="span-ingre">flavours - </span>Mint , Lemon , pinapple, orange </p>
+                  
+                  <p class="pastry-para"><span class="span-cos">cost - </span>500/=</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body" >
+                <div class="car-title">
+                  soft drinks
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/soft-drink.jpg"  class="car-images-pastry"></p>
+                 
+                  <p class="pastry-para"> <span class="span-flav">flavours - </span>Coca cola , sprit  , lemonade</p>
+                  <p class="pastry-para"> <span class="span-cos">cost - </span>250/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title" >
+                  fruit juice
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/juice.jpg"  class="car-images-pastry"></p>
+                  
+                  <p class="pastry-para"><span class="span-flav">flavours - </span>Apple , Mango , Orange , Pinapple</p>
+                  <p class="pastry-para"><span class="span-cos">cost - </span>350/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="car-title" >
+                  smoothie
+                </div>
+                <div class="car-text">
+                  <p><img src="Image/smoothie.jpg"  class="car-images-pastry"></p>
+                  
+                  <p class="pastry-para"><span class="span-flav">flavours - </span>Apple , Mango , Orange , Pinapple</p>
+                  <p class="pastry-para"><span class="span-cos">cost - </span>450/=</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+      </div>
+
+      <div id="Customer-Review" class="container p-5 my-5 border">
+        <p class="customer-review-p">Customer Review</p>
+        <div id="carouselExampleSlidesOnlyCustomerReview" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person1.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Stefani Fernando</h2>
+                        <p class="carousel-customer-para">I'm gladly saying this shop has delicious food stuff and they also well caring 
+                          about customers. Highly recommended. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person2.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Toney Burt</h2>
+                        <p class="carousel-customer-para">I'm gladly saying this shop has delicious food stuff and they also well caring 
+                          about customers. Highly recommended. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person3.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Edward Perera</h2>
+                        <p class="carousel-customer-para">I'm gladly saying this shop has delicious food stuff and they also well caring 
+                          about customers. Highly recommended. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person4.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Roshel Rachel</h2>
+                        <p class="carousel-customer-para">Very tasty food stuff in here . Recommended for people
+                          who likes to eat tasty stuff.Hurry up guys.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person5.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Stromi Webstr</h2>
+                        <p class="carousel-customer-para">I'm gladly saying this shop has delicious food stuff and they also well caring 
+                          about customers. Highly recommended. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="image-area">
+                      <img src="Image/person6.png" alt="" class="carousl-customer-review">
+                      <div class="image-text">
+                        <h2 class="carousel-customer-name">Edward Edward</h2>
+                        <p class="carousel-customer-para">I'm gladly saying this shop has delicious food stuff and they also well caring 
+                          about customers. Highly recommended. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+        
+            <a class="carousel-control-prev"  id="customer-pre" href="#carouselExampleSlidesOnlyCustomerReview" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" id="customer-next" href="#carouselExampleSlidesOnlyCustomerReview" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="Delivery-details" class="container p-5 my-5 border">
+        <p class="delivery-details-p">Delivery Details</p>
+        <div class="row">
+          <div class="col-sm">
+            <img src="Image/delivery man.jpg" width="300" height="300">
+          </div>
+          <div class="col-sm">
+           
+             <div class="card">
+              <div class="card-body">
+                <h4 class="card-title"  style="font-size: 30px;text-transform: uppercase;">Delivery Time - 9.00am - 6.00pm</h4>
+                <p class="card-text"  style="font-size: 20px;">We now ship many of our iconic food items across the Colombo Area.
+                  Order now to bring the Our Bakery Experience to your door.</p>
+                  <p class="card-text" style="font-size: 20px;">You can also order our food through <span style="font-weight: bold; font-size: 20px;">Uber Eats</span></p>
+                <a href="#Pastry" class="card-link" style="background-color: #A64B2A; color: white; padding: 10px 10px 10px 10px;text-transform: uppercase;">Order Now</a>
+                
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="Aboutus" class="container p-5 my-5 border">
+        <p class="delivery-details-p">About Us</p>
+        <div class="row">
+          <div class="col-sm">
+            <img src="Image/bakery-shop.jpg" width="300" height="300">
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title" style="font-size: 20px; text-transform: uppercase;font-weight: bold;">Four stars bakery shop</div>
+                <p class="card-text" style="font-size: 15px;">Since 1976 we have been successful bakery in our area</p>
+                <p class="card-text" style="font-size: 15px;">Mainly we provides two main items , Such as Drinks and pastry items</p>
+                <p class="card-text" style="font-size: 15px;">Happily saying , we  provide  party stuff for birthday parties , family parties and so on</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+
+
+      <footer class="text-center text-lg-start" id="footer">
+        <!-- Grid container -->
+
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">details of bakery </h5>
+
+                  <table>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                    <tr>
+                      <td><img src="Image/home.png" width="30" height="30" ></td>
+                      <td><p style="margin-left: 10px;margin-top: 7px;">86/D/, Edward Rd, Colombo 07</p></td>
+                    </tr>
+
+                    <tr>
+                      <td><img src="Image/phone-call.png" width="30" height="30" ></td>
+                      <td><p style="margin-top: 7px;">+94778927427 /  0112974458</p></td>
+                    </tr>
+
+                  </table>
+                </div>
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Social media</h5>
+               
+                  <ul class="list-group  bg-transparent list-group-horizontal-sm"  id="footer-icon-details">
+                  <li class="list-group-item  bg-transparent ">
+                    <img src="Image/facebook.png" width="45" height="45">
+                    <a id="link-footer-para"  href="https://web.facebook.com/MagnoliaBakery/?_rdc=1&_rdr" style="text-decoration: none;color: black;" >Facebook</a></li>
+                    
+
+                  <li class="list-group-item  bg-transparent ">
+                   <img src="Image/email.png" width="45" height="45" >
+                   <a class="foooter-link" href="mailto:tharushitharundi123@gmail.com"  style="text-decoration: none;color: black;"> Gmail</a> </li>
+
+                  <li class="list-group-item  bg-transparent">
+                    <img src="Image/whatsapp (1).png" width="45" height="45">
+                    <a class="foooter-link" href="https://www.whatsapp.com/" style="text-decoration: none;color: black;">  whatsapp</a></li>
+                   
+                  <li class="list-group-item  bg-transparent">
+                    <img src="Image/instagram (1).png" width="45" height="45">
+                    <a class="foooter-link" href="https://www.instagram.com/accounts/login/"  style="text-decoration: none;color: black;">instagram</a></li>
+                    
+                </ul> 
+                </div>
+
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+
+
+
+
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color:black;">
+          <p class="text-light-copyright">© 2022 Copyright:</p>
+          <p class="text-light-copyright"> <a class="text-light" href="mailto:tharushitharundi123@gmail.com" style="text-decoration: none;">tharushitharundi123@gmail.com</a></p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+      
+</body>
+</html>
